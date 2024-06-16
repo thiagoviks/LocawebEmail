@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_all_inboxes_email"
+            android:title="@string/menu_all_inboxes_email" />
+        <item
+            android:id="@+id/nav_email_primary"
+            android:icon="@drawable/ic_menu_primary_email"
+            android:title="@string/menu_primary_email" />
+        <item
+            android:id="@+id/nav_email_sent"
+            android:icon="@drawable/ic_menu_sent_email"
+            android:title="@string/menu_sent_email" />
+    </group>
+</menu>
